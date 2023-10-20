@@ -13,5 +13,6 @@ function test_update_init() {
 	// Do nothing.
 	add_action( 'admin_print_footer_scripts', function () {
 		include_once __DIR__ . '/include.php';
+		function_in_the_include_file();
 	} );
 }
