@@ -4,7 +4,7 @@
  * WC tested up to: 7.8.0
  * Requires at least: 6.0
  * Requires PHP: 7.3
- * Version: 1.0
+ * Version: 2.0
  */
 
 add_action( 'plugins_loaded', 'test_update_init', 11 );
